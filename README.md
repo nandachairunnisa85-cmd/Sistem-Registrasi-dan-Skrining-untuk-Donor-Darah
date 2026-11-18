@@ -157,24 +157,4 @@ CREATE TABLE IF NOT EXISTS `pendonor` (
 
 ---
 
-## 5. Cara Menjalankan Aplikasi
 
-### 1. Aktifkan Database (Laragon)
-- Buka aplikasi **Laragon** di Windows.
-- Klik tombol **Start All** (pastikan MySQL berjalan pada port `3306`).
-
-### 2. Jalankan Backend (Node.js)
-```powershell
-cd backend
-npm install
-npm start
-```
-*(Server akan otomatis membuat database dan tabel `pendonor` jika belum ada, lalu aktif di `http://localhost:3000`)*.
-
-### 3. Jalankan Frontend (Flutter Web)
-```powershell
-cd frontend
-flutter pub get
-flutter run -d chrome
-```
-Aplikasi akan terbuka otomatis di Google Chrome.
