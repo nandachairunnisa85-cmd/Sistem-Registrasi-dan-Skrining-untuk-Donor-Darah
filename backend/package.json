@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend API Skrining & Registrasi Donor Darah",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "db:init": "node database/init_db.js",
+    "db:seed": "node database/init_db.js --seed",
+    "test": "node test_whitebox.js",
+    "test:whitebox": "node test_whitebox.js"
+  },
+  "keywords": [
+    "donor-darah",
+    "express",
+    "mysql",
+    "laragon"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.3.0",
+    "mysql2": "^3.24.6"
+  }
+}

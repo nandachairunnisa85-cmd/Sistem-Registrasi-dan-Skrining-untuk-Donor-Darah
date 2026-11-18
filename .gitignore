@@ -1,0 +1,29 @@
+# Node.js & Dependencies
+node_modules/
+backend/node_modules/
+npm-debug.log*
+yarn-debug.log*
+
+# Flutter Web & Build Artifacts
+.dart_tool/
+frontend/.dart_tool/
+frontend/build/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+
+# Environment variables & Private Documentation
+.env
+*.env
+*.env.*
+backend/.env
+PANDUAN_TUGAS.md
+PANDUAN_*.md
+*.log
+
+# Operating System & IDE
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
